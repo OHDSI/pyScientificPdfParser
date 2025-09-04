@@ -1,2 +1,2 @@
 # pyScientificPdfParser
-pyScientificPdfParser parse pdf to text using ocr
+[under development] pyScientificPdfParser parse pdf to text using ocr
