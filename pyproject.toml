@@ -59,6 +59,19 @@ scipdfparser = "pyscientificpdfparser.cli:main"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.pytest.ini_options]
+pythonpath = [
+    "src"
+]
+filterwarnings = [
+    "ignore:builtin type swigvarlink has no __module__ attribute:DeprecationWarning",
+    "ignore:builtin type SwigPyPacked has no __module__ attribute:DeprecationWarning",
+    "ignore:builtin type SwigPyObject has no __module__ attribute:DeprecationWarning"
+]
+
+[tool.coverage.run]
+source = ["src"]
+
 [tool.black]
 line-length = 88
 target-version = ['py310']
