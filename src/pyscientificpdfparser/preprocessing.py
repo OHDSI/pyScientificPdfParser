@@ -15,7 +15,7 @@ import cv2
 import fitz  # PyMuPDF
 import numpy as np
 from PIL import Image
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 class PreprocessedPage(BaseModel):
@@ -27,8 +27,7 @@ class PreprocessedPage(BaseModel):
     image: Image.Image
     is_scanned: bool
 
-    class Config:
-        arbitrary_types_allowed = True
+    model_config = ConfigDict(arbitrary_types_allowed=True)
 
 
 def _preprocess_image(image: Image.Image) -> Image.Image:
