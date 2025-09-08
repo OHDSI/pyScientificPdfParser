@@ -1,0 +1,1993 @@
+{
+  "source_pdf": "/app/tests/fixtures/arxiv-1410.6579.pdf",
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Header",
+      "level": 0,
+      "elements": [
+        {
+          "bbox": [
+            76.0,
+            1088.0,
+            151.0,
+            2360.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "1410.6579v1 [quant-ph] 24 Oct 2014",
+          "confidence": 94.4
+        },
+        {
+          "bbox": [
+            95.0,
+            2377.0,
+            134.0,
+            2386.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "e e",
+          "confidence": 52.5
+        },
+        {
+          "bbox": [
+            76.0,
+            2396.0,
+            134.0,
+            2580.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "arXiv",
+          "confidence": 73.0
+        },
+        {
+          "bbox": [
+            303.0,
+            607.0,
+            2125.0,
+            762.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "Feedback Policies for Measurement-based Quantum State Manipulation",
+          "confidence": 94.42857142857143
+        },
+        {
+          "bbox": [
+            602.0,
+            854.0,
+            1026.0,
+            899.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "Shuangshuang Fu",
+          "confidence": 93.5
+        },
+        {
+          "bbox": [
+            600.0,
+            927.0,
+            1628.0,
+            1018.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "College of Engineering and Computer Science The Australian National University, Canberra, Australia",
+          "confidence": 95.91666666666667
+        },
+        {
+          "bbox": [
+            600.0,
+            1056.0,
+            1315.0,
+            1095.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "E-mail: shuangshuang.fu@anu. edu. au",
+          "confidence": 62.25
+        },
+        {
+          "bbox": [
+            602.0,
+            1191.0,
+            917.0,
+            1236.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "Guodong Shi",
+          "confidence": 93.5
+        },
+        {
+          "bbox": [
+            600.0,
+            1263.0,
+            1628.0,
+            1354.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "College of Engineering and Computer Science The Australian National University, Canberra, Australia",
+          "confidence": 95.91666666666667
+        },
+        {
+          "bbox": [
+            600.0,
+            1392.0,
+            1228.0,
+            1431.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "E-mail: guodong.shi@anu.edu.au",
+          "confidence": 82.0
+        },
+        {
+          "bbox": [
+            601.0,
+            1527.0,
+            1099.0,
+            1562.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "Alexandre Proutiere",
+          "confidence": 92.0
+        },
+        {
+          "bbox": [
+            600.0,
+            1599.0,
+            1509.0,
+            1691.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "School of Electrical Engineering Royal Institute of Technology, Stockholm, Sweden",
+          "confidence": 95.9
+        },
+        {
+          "bbox": [
+            600.0,
+            1728.0,
+            1030.0,
+            1766.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "E-mail: alepro@kth.se",
+          "confidence": 89.0
+        },
+        {
+          "bbox": [
+            601.0,
+            1863.0,
+            1063.0,
+            1899.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "Matthew R. James",
+          "confidence": 93.66666666666667
+        },
+        {
+          "bbox": [
+            600.0,
+            1936.0,
+            1628.0,
+            2027.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "College of Engineering and Computer Science The Australian National University, Canberra, Australia",
+          "confidence": 95.91666666666667
+        },
+        {
+          "bbox": [
+            600.0,
+            2064.0,
+            1272.0,
+            2093.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "E-mail: matthew. james@anu. edu. au",
+          "confidence": 74.2
+        },
+        {
+          "bbox": [
+            600.0,
+            2185.0,
+            2153.0,
+            2816.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "Abstract. In this paper, we propose feedback designs for manipulating a quantum state to a target state by performing sequential measurements. In light of Belavkin’s quantum feedback control theory, for a given set of (projective or non-projective) measurements and a given time horizon, we show that finding the measurement selection policy that maximizes the probability of successful state manipulation is an optimal control problem for a controlled Markovian process. The optimal policy is Markovian and can be solved by dynamical programming. Numerical examples indicate that making use of feedback information significantly improves the success probability compared to classical scheme without taking feedback. We also consider other objective functionals including maximizing the expected fidelity to the target state as well as minimizing the expected arrival time. The connections and differences among these objectives are also discussed.",
+          "confidence": 95.6962962962963
+        },
+        {
+          "bbox": [
+            600.0,
+            2947.0,
+            1059.0,
+            2978.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "PACS numbers: 03.67.Ac",
+          "confidence": 93.33333333333333
+        },
+        {
+          "bbox": [
+            303.0,
+            3109.0,
+            2065.0,
+            3154.0
+          ],
+          "page_number": 1,
+          "element_type": "TextBlock",
+          "text": "Keywords: Feedback Policy, Quantum State-manipulation, Quantum Measurement",
+          "confidence": 94.71428571428571
+        },
+        {
+          "bbox": [
+            303.0,
+            273.0,
+            2151.0,
+            318.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "Feedback Policies for Measurement-based Quantum State Manipulation 2",
+          "confidence": 94.625
+        }
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "level": 0,
+      "elements": [
+        {
+          "bbox": [
+            304.0,
+            381.0,
+            676.0,
+            416.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "1. Introduction",
+          "confidence": 95.5
+        },
+        {
+          "bbox": [
+            301.0,
+            497.0,
+            2153.0,
+            1144.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "One fundamental difference between classical and quantum mechanics is the unavoidable back-action of quantum measurement. On the one hand, this back-action is generally thought to be detrimental for the implementation of effective quantum control. On the other hand, it also provides us one possibility to use the change caused by the measurement as a new route to manipulate the state of the system[1, 9]. A basic problem in quantum physics and engineering is how to drive a quantum system to a desired target state. There have been studies on the preparation of a given target state from a given initial state using sequential (projective or non-projective) measurements in the last few years [13, 14, 15, 16, 17]. A quantum measurement F is described by a collection of measurement operators",
+          "confidence": 94.2248062015504
+        },
+        {
+          "bbox": [
+            1075.0,
+            1193.0,
+            1281.0,
+            1283.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "{Me(m)}",
+          "confidence": 71.0
+        },
+        {
+          "bbox": [
+            301.0,
+            1342.0,
+            2152.0,
+            1387.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "where JY is an index set for measurement outcomes and the measurement operators",
+          "confidence": 92.0
+        },
+        {
+          "bbox": [
+            972.0,
+            1458.0,
+            1481.0,
+            1536.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "YS Meg(m)'Mp(m) = I.",
+          "confidence": 39.25
+        },
+        {
+          "bbox": [
+            969.0,
+            1545.0,
+            1048.0,
+            1573.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "mey",
+          "confidence": 73.0
+        },
+        {
+          "bbox": [
+            302.0,
+            1408.0,
+            435.0,
+            1453.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "satisfy",
+          "confidence": 96.0
+        },
+        {
+          "bbox": [
+            301.0,
+            1607.0,
+            2152.0,
+            1785.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "Suppose we perform the quantum measurement FE on density operator p, the probability of obtaining result m € Y is tr(Mg(m)pMz(m)'), and when m € Y occurs, the post- measurement state of the quantum system becomes",
+          "confidence": 89.55555555555556
+        },
+        {
+          "bbox": [
+            1120.0,
+            1839.0,
+            1561.0,
+            1977.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "Mn(m)pMe(m)\" tr(Mz(m)pMz(m)*) ”",
+          "confidence": 0.0
+        },
+        {
+          "bbox": [
+            400.0,
+            2014.0,
+            2153.0,
+            2059.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "If we are unaware of the measurement result, the unconditional state of the quantum",
+          "confidence": 95.64285714285714
+        },
+        {
+          "bbox": [
+            893.0,
+            1876.0,
+            1097.0,
+            1931.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "Mi (p) =",
+          "confidence": 53.333333333333336
+        },
+        {
+          "bbox": [
+            302.0,
+            2080.0,
+            1375.0,
+            2125.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "system after the measurement can be expressed as",
+          "confidence": 95.625
+        },
+        {
+          "bbox": [
+            1061.0,
+            2184.0,
+            1557.0,
+            2254.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "=S Ma(m )pMa( m)\".",
+          "confidence": 18.0
+        },
+        {
+          "bbox": [
+            1111.0,
+            2267.0,
+            1190.0,
+            2295.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "mey",
+          "confidence": 71.0
+        },
+        {
+          "bbox": [
+            302.0,
+            2352.0,
+            2152.0,
+            2666.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "If {Mz(m)}mey are orthogonal projectors, i.e, the Mg(m) are Hermitian and Me(l)Mp(m) = dmMen(m), E is a projective measurement. The idea of quantum state manipulation using sequential measurements [13, 14, 15, 16, 17] is as follows. By consecutively performing the measurements F,..., Ey, the unconditional state for quantum system with initial state po can be expressed as",
+          "confidence": 87.63157894736842
+        },
+        {
+          "bbox": [
+            830.0,
+            2730.0,
+            1619.0,
+            2793.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "py = Mey ° Mey_; Or770 Mr, (po):",
+          "confidence": 45.0
+        },
+        {
+          "bbox": [
+            302.0,
+            2852.0,
+            2152.0,
+            3163.0
+          ],
+          "page_number": 2,
+          "element_type": "TextBlock",
+          "text": "It has been shown, analytically or numerically, how to select the measurements E\\,...,Ey so that p’ can asymptotically tend to a desired target state [13, 14, 15, 16, 17]. Making use of feedback information for quantum measurement and detection actually has a long history, which can be viewed as the dual problem of state",
+          "confidence": 93.0925925925926
+        },
+        {
+          "bbox": [
+            303.0,
+            273.0,
+            2151.0,
+            318.0
+          ],
+          "page_number": 3,
+          "element_type": "TextBlock",
+          "text": "Feedback Policies for Measurement-based Quantum State Manipulation 3",
+          "confidence": 94.625
+        },
+        {
+          "bbox": [
+            301.0,
+            381.0,
+            2155.0,
+            2352.0
+          ],
+          "page_number": 3,
+          "element_type": "TextBlock",
+          "text": "manipulation. The “Dolinar’s receiver” proposes a feedback strategy for discriminating two possible quantum states with prior distribution with minimum probability of error [4]. The problem is known as the quantum detection problem and Helstrom’s bound characterizes the minimum probability of error for discriminating any two non-orthonormal states [6]. Quantum detection is to identify uncertain quantum states via projective measurements; while the considered quantum state projection is to manipulate a certain quantum state to a certain target, again via projective measurements. The Dolinar’s scheme follows a similar structure that measurement is selected based on previous measurement results on different segments of the pulse, and was recently realized experimentally [5]. See [8] for a survey for the extensive studies in feedback (adaptive) design in quantum tomography. In this paper, we propose a feedback design for quantum state manipulation via sequential measurements. For a given set of measurements and a given time horizon, we show that finding the policy of measurement selections that maximizes the probability of successful state manipulation can be solved by dynamical programming. Such derivation of the optimal policy falls to Belavkin’s quantum feedback theory [1]. Numerical examples are given which indicate that the proposed feedback policy significantly improves the success probability compared to classical policy by consecutive projections without taking feedback. In particular, the probability of reaching the target state |1) via feedback policy reaches 0.9968 using merely 10 measurements from initial state |0). Other optimality criteria are also discussed such as the maximal expected fidelity and the minimal arrival time, and some connections and differences among the the different criteria are also discussed. The remainder of the paper is organised as follows. In the first part of Section 2, we revisit a simple example of reaching |1) from |0) using sequential projective measurements [17], and show how feedback policies work under which even a little bit of feedback can make a nontrivial improvement. The rest of Section 2 devotes to a rigorous treatment for the problem definition and for finding the optimal feedback policy from classical quantum feedback theory. Numerical examples are given there. Section 3 investigates some other optimality criteria and finally Section 4 concludes the",
+          "confidence": 95.26740947075209
+        },
+        {
+          "bbox": [
+            301.0,
+            2387.0,
+            1412.0,
+            2560.0
+          ],
+          "page_number": 3,
+          "element_type": "TextBlock",
+          "text": "paper. 2. Quantum State Manipulation by Feedback",
+          "confidence": 95.85714285714286
+        },
+        {
+          "bbox": [
+            304.0,
+            2630.0,
+            1157.0,
+            2676.0
+          ],
+          "page_number": 3,
+          "element_type": "TextBlock",
+          "text": "2.1. A Simple Example: Why Feedback?",
+          "confidence": 95.66666666666667
+        },
+        {
+          "bbox": [
+            301.0,
+            2730.0,
+            2151.0,
+            2898.0
+          ],
+          "page_number": 3,
+          "element_type": "TextBlock",
+          "text": "Consider now a qubit system, i.e., a two-dimensional Hilbert space. The initial state of the quantum system is |0)(0|, and the target state is |1)(1|. Given T > 2 projective measurements from the set",
+          "confidence": 93.67647058823529
+        },
+        {
+          "bbox": [
+            600.0,
+            2927.0,
+            2148.0,
+            3025.0
+          ],
+          "page_number": 3,
+          "element_type": "TextBlock",
+          "text": "e={ki, i=1,2,...,7h. (1)",
+          "confidence": 43.666666666666664
+        },
+        {
+          "bbox": [
+            303.0,
+            273.0,
+            2152.0,
+            318.0
+          ],
+          "page_number": 4,
+          "element_type": "TextBlock",
+          "text": "Feedback Policies for Measurement-based Quantum State Manipulation 4",
+          "confidence": 94.625
+        },
+        {
+          "bbox": [
+            301.0,
+            375.0,
+            1580.0,
+            576.0
+          ],
+          "page_number": 4,
+          "element_type": "TextBlock",
+          "text": "where E; = {|:) (|, i) (Wal } with |¢;) = cos (=) 0) + sin (=) 1)",
+          "confidence": 64.5
+        },
+        {
+          "bbox": [
+            842.0,
+            657.0,
+            1612.0,
+            758.0
+          ],
+          "page_number": 4,
+          "element_type": "TextBlock",
+          "text": "li) = —sin (=) |0) + cos (=) |1).",
+          "confidence": 76.77777777777777
+        },
+        {
+          "bbox": [
+            302.0,
+            787.0,
+            1765.0,
+            837.0
+          ],
+          "page_number": 4,
+          "element_type": "TextBlock",
+          "text": "Note that the choice of E; follows the optimal selection given in [17].",
+          "confidence": 91.15384615384616
+        },
+        {
+          "bbox": [
+            302.0,
+            623.0,
+            378.0,
+            659.0
+          ],
+          "page_number": 4,
+          "element_type": "TextBlock",
+          "text": "and",
+          "confidence": 95.0
+        },
+        {
+          "bbox": [
+            299.0,
+            853.0,
+            2152.0,
+            1696.0
+          ],
+          "page_number": 4,
+          "element_type": "TextBlock",
+          "text": "The strategy in [16, 17] is simply to perform the T measurements in turn from E, to Er. We call it a naive policy. The probability of successfully driving the state from |0) to |1) in 7 steps under this naive strategy is denoted by p(7’). We can easily calculate that p(3) + 0.56 and p(10) = 0.8. Let T’ = 3. We next show that even only a bit of measurement feedback can improve the performance of the strategy significantly. S1. After the first measurement FE, has been made, perform E3 if the outcome is |) for the second step, and follow the naive policy for all other actions. Following this scheme, it turns out that the probability of arriving at |1) in three steps becomes around 0.66, in contrast with p(3) * 0.56 under the naive scheme. The improvement in the probability of success comes from the fact that a feedback decision is made based on the information of the outcome of E) so that in $1 a better selection of measurement is obtained between FE, and £3.",
+          "confidence": 90.15555555555555
+        },
+        {
+          "bbox": [
+            304.0,
+            1787.0,
+            1431.0,
+            1832.0
+          ],
+          "page_number": 4,
+          "element_type": "TextBlock",
+          "text": "2.2. Optimal Policy from Quantum Feedback Control",
+          "confidence": 95.42857142857143
+        },
+        {
+          "bbox": [
+            301.0,
+            1886.0,
+            2152.0,
+            2262.0
+          ],
+          "page_number": 4,
+          "element_type": "TextBlock",
+          "text": "We now present the solution to the optimal policy for the considered quantum state manipulation in light of the classical work of quantum feedback control theory derived by Belavkin [1] (also see [2] and [3] for a thorough treatment). Consider a quantum system whose state is described by density operators over the qubit space. Let € be a given finite set of measurements serving as all feasible control actions. For each EF € €, we write",
+          "confidence": 94.26315789473684
+        },
+        {
+          "bbox": [
+            1033.0,
+            2309.0,
+            1332.0,
+            2399.0
+          ],
+          "page_number": 4,
+          "element_type": "TextBlock",
+          "text": "B= {Mely)}",
+          "confidence": 15.0
+        },
+        {
+          "bbox": [
+            1339.0,
+            2362.0,
+            1418.0,
+            2408.0
+          ],
+          "page_number": 4,
+          "element_type": "TextBlock",
+          "text": ">] yey",
+          "confidence": 39.5
+        },
+        {
+          "bbox": [
+            301.0,
+            2455.0,
+            2152.0,
+            3099.0
+          ],
+          "page_number": 4,
+          "element_type": "TextBlock",
+          "text": "where J is a finite index set of measurement outputs and Mzg(y) is the measurement operator corresponding to outcome y € Y. Time is slotted with a horizon N > 1. The initial state of the quantum system is po, and the target state is assumed to be, for the ease of presentation, |1)(1]. For 0 < k < N —1, we denote by uz € E the measurement performed at time k and the post-measurement state after uz has been performed is denoted as Proi- Let yx € VY be the outcome of uz. The measurement sequence {ur ti is selected by a policy 7 = {tr}e os where each 7, takes value in the set € such that Up = Tr(Yo,--->Yk—1; Uo,---;Uk—-1) can depend on all previous selected measurements and their outcomes for all k = 0,...,N—1. Here for convenience we have denoted",
+          "confidence": 87.10344827586206
+        },
+        {
+          "bbox": [
+            301.0,
+            3118.0,
+            611.0,
+            3166.0
+          ],
+          "page_number": 4,
+          "element_type": "TextBlock",
+          "text": "U-1 = Y-1 = 0.",
+          "confidence": 81.2
+        },
+        {
+          "bbox": [
+            303.0,
+            273.0,
+            2151.0,
+            318.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "Feedback Policies for Measurement-based Quantum State Manipulation 5",
+          "confidence": 94.5
+        },
+        {
+          "bbox": [
+            399.0,
+            375.0,
+            1633.0,
+            625.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "We can now express the closed-loop evolution of {p;,})’ as Mu, (Ye) erMi, (ye) tr (Mu, (yx) Pr Mi, (ys))",
+          "confidence": 66.45
+        },
+        {
+          "bbox": [
+            301.0,
+            649.0,
+            1542.0,
+            694.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "where k = 0,..., N —1. The distribution of y, is given by",
+          "confidence": 85.07692307692308
+        },
+        {
+          "bbox": [
+            600.0,
+            499.0,
+            991.0,
+            555.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "Pro = Mik (pe) =",
+          "confidence": 66.6
+        },
+        {
+          "bbox": [
+            739.0,
+            743.0,
+            1710.0,
+            843.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "P(u =ye Yue, pr.) = tr(M,(y)pxMl,, (y)),",
+          "confidence": 34.42857142857143
+        },
+        {
+          "bbox": [
+            301.0,
+            891.0,
+            1647.0,
+            1009.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "where k = 0,..., N —1. Clearly {p,})\" defines a Markov chain. We definet",
+          "confidence": 83.71428571428571
+        },
+        {
+          "bbox": [
+            949.0,
+            1013.0,
+            1498.0,
+            1103.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "J(N) = P(oy =[1)(1))",
+          "confidence": 18.75
+        },
+        {
+          "bbox": [
+            302.0,
+            1133.0,
+            2153.0,
+            1311.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "as the probability of successfully manipulating the quantum state to the target density matrix |1)(1|, where P, is the probability measure equipped with 7. We also define the cost-to-go function",
+          "confidence": 92.93333333333334
+        },
+        {
+          "bbox": [
+            807.0,
+            1314.0,
+            1639.0,
+            1405.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "V(t,x2) = max P(py = 11) (I os = x)",
+          "confidence": 53.6
+        },
+        {
+          "bbox": [
+            301.0,
+            1438.0,
+            2150.0,
+            1552.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "fort = 0,1,...,.N. Following standard theories for controlled Markovian process [12, 10], the following conclusion holds.",
+          "confidence": 87.3125
+        },
+        {
+          "bbox": [
+            302.0,
+            1592.0,
+            2000.0,
+            1649.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "Proposition 1 The cost-to-go function V(t, x) satisfies the following recursion",
+          "confidence": 80.9090909090909
+        },
+        {
+          "bbox": [
+            600.0,
+            1671.0,
+            2148.0,
+            1769.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "V(t,2) = max P(ylu,«) V(t — LMY(x)), (3)",
+          "confidence": 47.25
+        },
+        {
+          "bbox": [
+            827.0,
+            1740.0,
+            981.0,
+            1797.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "ucé yey",
+          "confidence": 48.0
+        },
+        {
+          "bbox": [
+            301.0,
+            1827.0,
+            2151.0,
+            2016.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "wheret =1,...,N, with boundary condition V(0,x) = 1 if x = |1)(1|, and V(0, x) = 0 otherwise. The maximum arrival probability max, J,(N) is given by max, J,(N) = V(N, po). The optimal policy 1 = {ri} n ot is Markovian, and is given by",
+          "confidence": 80.17391304347827
+        },
+        {
+          "bbox": [
+            600.0,
+            2040.0,
+            2148.0,
+            2167.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "7}, (Pk) = arg max) P(y u, pr) V(N —k— 1, Mi(o%)) (4) yey",
+          "confidence": 48.214285714285715
+        },
+        {
+          "bbox": [
+            299.0,
+            2196.0,
+            744.0,
+            2249.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "fork =0,...,N—1.",
+          "confidence": 76.5
+        },
+        {
+          "bbox": [
+            304.0,
+            2336.0,
+            837.0,
+            2381.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "2.8. Numerical Examples",
+          "confidence": 95.66666666666667
+        },
+        {
+          "bbox": [
+            301.0,
+            2433.0,
+            2152.0,
+            2603.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "We now compare the performance of the policies with and without feedback. Again we consider driving a two-level quantum system from state |0) to |1). The available measurements are in the set",
+          "confidence": 94.96875
+        },
+        {
+          "bbox": [
+            938.0,
+            2657.0,
+            1511.0,
+            2755.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "é={ki, i=1,2,...,T}.",
+          "confidence": 25.5
+        },
+        {
+          "bbox": [
+            302.0,
+            2805.0,
+            688.0,
+            2854.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "as given in Eq.(1).",
+          "confidence": 93.5
+        },
+        {
+          "bbox": [
+            302.0,
+            2903.0,
+            2152.0,
+            2998.0
+          ],
+          "page_number": 5,
+          "element_type": "TextBlock",
+          "text": "t It is clear from this objective that E, = {|0)(0|,|1)(1|} must be a measurement in the set € for J,(N) to be a non-trivial function if all measurements in € are projective.",
+          "confidence": 87.42424242424242
+        },
+        {
+          "bbox": [
+            303.0,
+            273.0,
+            2151.0,
+            318.0
+          ],
+          "page_number": 6,
+          "element_type": "TextBlock",
+          "text": "Feedback Policies for Measurement-based Quantum State Manipulation 6",
+          "confidence": 94.5
+        },
+        {
+          "bbox": [
+            721.0,
+            382.0,
+            1793.0,
+            414.0
+          ],
+          "page_number": 6,
+          "element_type": "TextBlock",
+          "text": "100 : : : : : _—",
+          "confidence": 38.285714285714285
+        },
+        {
+          "bbox": [
+            653.0,
+            584.0,
+            699.0,
+            958.0
+          ],
+          "page_number": 6,
+          "element_type": "TextBlock",
+          "text": "J» (N) and J+ (N)",
+          "confidence": 47.6
+        },
+        {
+          "bbox": [
+            600.0,
+            1326.0,
+            2153.0,
+            1420.0
+          ],
+          "page_number": 6,
+          "element_type": "TextBlock",
+          "text": "Figure 1. The probabilities of successfully reaching |1) from the initial state |0) using naive policy 7\" and optimal feedback policy 7*, respectively.",
+          "confidence": 89.8695652173913
+        },
+        {
+          "bbox": [
+            301.0,
+            1571.0,
+            2152.0,
+            2214.0
+          ],
+          "page_number": 6,
+          "element_type": "TextBlock",
+          "text": "2.8.1. Feedback vs. Non-Feedback First of all, we take T = N. The naive policy in turn takes projections from E, to Ey, denoted 1” = {ar We solve the optimal feedback policy 1* = {mx} o' using Eq. (4). It is clear that 7 is deterministic with Te = Exyi, while 7 is Markovian with 7 depending on pz. Correspondingly, their arrival probability in N steps are given by J,n(N) and J,«(V), respectively. In Figure 1, we plot J,zn(N) and J,«(NV) for N = 3,...,10. As shown clearly in the figure, the probability of success is improved significantly. Actually for N = 10, we already have J+(N) = 0.9968. Moreover, as an illustration of the different actions between the naive and feedback strategies, we plot their policies for N = 5 in Tables I and II, respectively.",
+          "confidence": 86.23913043478261
+        },
+        {
+          "bbox": [
+            301.0,
+            2305.0,
+            2153.0,
+            2815.0
+          ],
+          "page_number": 6,
+          "element_type": "TextBlock",
+          "text": "2.8.2. Influence of Measurement Set We now investigate how the size of the available measurement set € influences the successful arrival probability in N steps under optimal feedback. In this case, the optimal arrival probability J,.«(NV) is also a function of T, and we therefore rewrite J,«(N) = JZ.(N). In Figure 2, we plot J7.(N), for T = 10,100, 1000, respectively. The numerical results show that as T increases, the J“, (N) quickly tends to a limiting curve, suggesting the existence of some fundamental upper bound on the arrival probability in N steps using sequential projections from an arbitrarily large measurement set.",
+          "confidence": 89.68627450980392
+        },
+        {
+          "bbox": [
+            302.0,
+            2911.0,
+            993.0,
+            2956.0
+          ],
+          "page_number": 6,
+          "element_type": "TextBlock",
+          "text": "3. More Optimality Criteria",
+          "confidence": 95.75
+        },
+        {
+          "bbox": [
+            301.0,
+            3027.0,
+            2152.0,
+            3139.0
+          ],
+          "page_number": 6,
+          "element_type": "TextBlock",
+          "text": "In this section, we discuss two other useful optimality criteria, to maximize the expected fidelity with the target state, or to minimize the expected time it takes to arrive at the",
+          "confidence": 95.90322580645162
+        },
+        {
+          "bbox": [
+            303.0,
+            273.0,
+            2153.0,
+            318.0
+          ],
+          "page_number": 7,
+          "element_type": "TextBlock",
+          "text": "Feedback Policies for Measurement-based Quantum State Manipulation 7",
+          "confidence": 94.625
+        },
+        {
+          "bbox": [
+            703.0,
+            382.0,
+            1767.0,
+            1241.0
+          ],
+          "page_number": 7,
+          "element_type": "TextBlock",
+          "text": "m™ |kK=O)/k=1)/k=2)k=3|\\/k=4 |0) Ey * * a. |1) x x * * * 1) * Ey * * * w1) * Ey * * * 2) x x E3 x x we) x x E3 x x 3) x x x Ey x ws) x x x Ey x 4) x x x x Es wa) x x x x Es",
+          "confidence": 57.98360655737705
+        },
+        {
+          "bbox": [
+            600.0,
+            1335.0,
+            2153.0,
+            1483.0
+          ],
+          "page_number": 7,
+          "element_type": "TextBlock",
+          "text": "Table 1. The actions using naive strategy 7\" to prepare the target state |1), starting from |0), for N = 5. Here E; represents the measurement that the policy chooses, and * means that it is not possible to be in that state at the corresponding step.",
+          "confidence": 92.40425531914893
+        },
+        {
+          "bbox": [
+            707.0,
+            1556.0,
+            1767.0,
+            1781.0
+          ],
+          "page_number": 7,
+          "element_type": "TextBlock",
+          "text": "m™ |k=O0|k=1|/k=2|k=3/k=4 )_ & | & | & | & | 1) | Es | Bs | Bs | Es | Es",
+          "confidence": 66.31818181818181
+        },
+        {
+          "bbox": [
+            703.0,
+            1794.0,
+            1728.0,
+            2415.0
+          ],
+          "page_number": 7,
+          "element_type": "TextBlock",
+          "text": "SSESEREE & & & & &",
+          "confidence": 7.666666666666667
+        },
+        {
+          "bbox": [
+            600.0,
+            2509.0,
+            2149.0,
+            2595.0
+          ],
+          "page_number": 7,
+          "element_type": "TextBlock",
+          "text": "Table 2. The actions using optimal feedback policy z* to prepare the target state |1) for N =5.",
+          "confidence": 89.77777777777777
+        },
+        {
+          "bbox": [
+            301.0,
+            2712.0,
+            556.0,
+            2753.0
+          ],
+          "page_number": 7,
+          "element_type": "TextBlock",
+          "text": "target state.",
+          "confidence": 95.5
+        },
+        {
+          "bbox": [
+            305.0,
+            2844.0,
+            964.0,
+            2889.0
+          ],
+          "page_number": 7,
+          "element_type": "TextBlock",
+          "text": "3.1. Maximal Expected Fidelity",
+          "confidence": 85.75
+        },
+        {
+          "bbox": [
+            303.0,
+            2941.0,
+            1718.0,
+            2991.0
+          ],
+          "page_number": 7,
+          "element_type": "TextBlock",
+          "text": "Given two density operators p and o, their fidelity is defined by [7|",
+          "confidence": 91.6923076923077
+        },
+        {
+          "bbox": [
+            987.0,
+            3070.0,
+            1463.0,
+            3122.0
+          ],
+          "page_number": 7,
+          "element_type": "TextBlock",
+          "text": "F(p,o) = try//pov/p.",
+          "confidence": 44.0
+        },
+        {
+          "bbox": [
+            303.0,
+            273.0,
+            2151.0,
+            318.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "Feedback Policies for Measurement-based Quantum State Manipulation 8",
+          "confidence": 94.5
+        },
+        {
+          "bbox": [
+            662.0,
+            709.0,
+            707.0,
+            772.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "(N)",
+          "confidence": 89.0
+        },
+        {
+          "bbox": [
+            653.0,
+            790.0,
+            707.0,
+            842.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "T Jos",
+          "confidence": 54.0
+        },
+        {
+          "bbox": [
+            779.0,
+            1128.0,
+            1802.0,
+            1176.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "1 1 1 \\ nl n 3 4 5 6 7 a 9 10",
+          "confidence": 58.785714285714285
+        },
+        {
+          "bbox": [
+            601.0,
+            1196.0,
+            2153.0,
+            1362.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "Steps N Figure 2. The probabilities of successfully reaching |1) from the initial state |0) using",
+          "confidence": 92.8125
+        },
+        {
+          "bbox": [
+            600.0,
+            1377.0,
+            1601.0,
+            1415.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "different sizes of measurement set by feedback strategy.",
+          "confidence": 95.875
+        },
+        {
+          "bbox": [
+            302.0,
+            1564.0,
+            2147.0,
+            1678.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "Fidelity measures the closeness of two quantum states. Now that our target state |1)(1| is a pure state, we have",
+          "confidence": 95.1
+        },
+        {
+          "bbox": [
+            867.0,
+            1731.0,
+            1582.0,
+            1827.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "try VID Alo Vy] = Vor).",
+          "confidence": 50.333333333333336
+        },
+        {
+          "bbox": [
+            399.0,
+            1881.0,
+            1762.0,
+            1927.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "Alternatively, we can consider the following objective functional",
+          "confidence": 95.75
+        },
+        {
+          "bbox": [
+            987.0,
+            1977.0,
+            1465.0,
+            2080.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "Jn(N) = Ex (1/0, 1)],",
+          "confidence": 26.2
+        },
+        {
+          "bbox": [
+            301.0,
+            2124.0,
+            2153.0,
+            2578.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "and the goal is to find a policy that maximizes J Jn(N ). For the two objective functionals Jn (N) and J,(N), we denote their corresponding optimal policy as m*(N) = {77(N)}7! and 7°(N) = {r2(N)}\\ 3, respectively, where the time horizon N is also indicated, Let 7°(N —1)@ E, be the policy that follows t°(N —1) for k =0,...,N—2 and takes value EF, for k = N — 1. Let p? be the unconditional density operator at step k fork =0,...,N—1. The following equations hold:",
+          "confidence": 79.67441860465117
+        },
+        {
+          "bbox": [
+            602.0,
+            2607.0,
+            2148.0,
+            2910.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "Jo(N = 1) =E,|(Hpy-11)| tr(p%_,J1)(LI) = Px (oy =[1)(1\\), (5)",
+          "confidence": 31.2
+        },
+        {
+          "bbox": [
+            301.0,
+            2938.0,
+            2151.0,
+            3127.0
+          ],
+          "page_number": 8,
+          "element_type": "TextBlock",
+          "text": "for any 7 = {tr}po where 7’ = 70 E, = {te} po. with tmy_; = E,. As a result, the following relation holds between the optimal policies under the two objectives J,(NV) and J,(N).",
+          "confidence": 76.54285714285714
+        },
+        {
+          "bbox": [
+            303.0,
+            273.0,
+            2151.0,
+            318.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "Feedback Policies for Measurement-based Quantum State Manipulation 9",
+          "confidence": 94.625
+        },
+        {
+          "bbox": [
+            301.0,
+            371.0,
+            2150.0,
+            495.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "Proposition 2 /t holds that max,J,(N) = max, Jy (VN —1). In fact, m*(N) = n°(N —1) @ E, with E, = {|0) (0, 1) (13.",
+          "confidence": 67.73076923076923
+        },
+        {
+          "bbox": [
+            301.0,
+            550.0,
+            2153.0,
+            995.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "The intuition behind Proposition 2 is that one would expect to get as closely as possible to the target state at step N — 1, if one tends to successfully project onto the target state at step N. We also know from Proposition 2 that we can solve the maximal expected fidelity problem in N steps by the solutions of maximizing the arrival probability in N +1 steps. Similarly, we can also find the optimal policy 7° for the objective J,(N) using dynamical programming. Define the cost-to-go function V(k,x) for J,(N) as",
+          "confidence": 94.1413043478261
+        },
+        {
+          "bbox": [
+            301.0,
+            1019.0,
+            2148.0,
+            1522.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "V(k, ©) = maxE,|(1|py|1) | px = 2| (6) fork =0,...,N. Then V(k, x) satisfies the following recursive equation \\/ _ \\/ y V(k, 2) = max )>P(y|ue)V (kK +1.MY(2)), (7) yey for k =0,...,N —1, with terminal condition V(N, a) = tr(x]1) (1). (8)",
+          "confidence": 70.08888888888889
+        },
+        {
+          "bbox": [
+            302.0,
+            1559.0,
+            1370.0,
+            1611.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "The optimal policy 7° can be obtained by solving",
+          "confidence": 95.11111111111111
+        },
+        {
+          "bbox": [
+            600.0,
+            1634.0,
+            1686.0,
+            1761.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "Te (pe) = arg max )>P(y U, pe) (K + L,M4(o%)) yey",
+          "confidence": 52.833333333333336
+        },
+        {
+          "bbox": [
+            301.0,
+            1794.0,
+            1834.0,
+            1851.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "for k =0,...,N —1. The maximal expected fidelity J,o(N) = V(0, po).",
+          "confidence": 83.41666666666667
+        },
+        {
+          "bbox": [
+            305.0,
+            1940.0,
+            879.0,
+            1976.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "3.2. Minimal Arrival Time",
+          "confidence": 94.0
+        },
+        {
+          "bbox": [
+            301.0,
+            2039.0,
+            2153.0,
+            2348.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "In previous discussions the deadline N plays an important role in the objective functionals as well as in their solutions. We now consider the case when the deadline is flexible, and we aim to minimize the average number of steps it takes to arrive at the target state. Now the control policy is denoted as 7 = {7,}?25, where 7% selects a measurement from the set €. Associated with 7, we define",
+          "confidence": 93.61111111111111
+        },
+        {
+          "bbox": [
+            601.0,
+            2372.0,
+            2148.0,
+            2471.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "of, = int { py = [1)(U} (9)",
+          "confidence": 58.0
+        },
+        {
+          "bbox": [
+            302.0,
+            2499.0,
+            2152.0,
+            2616.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "Note that <% defines a stopping time (cf., [11]) associated with the random processes {px}o°, and we assume that 7 is proper in the sense that",
+          "confidence": 88.5
+        },
+        {
+          "bbox": [
+            1030.0,
+            2663.0,
+            1420.0,
+            2761.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "Ps (% <0) =1.",
+          "confidence": 53.0
+        },
+        {
+          "bbox": [
+            301.0,
+            2807.0,
+            838.0,
+            2843.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "We continue to introduce",
+          "confidence": 96.0
+        },
+        {
+          "bbox": [
+            602.0,
+            2887.0,
+            2148.0,
+            2946.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "J, = Ex[ Ar] (10)",
+          "confidence": 53.0
+        },
+        {
+          "bbox": [
+            302.0,
+            2988.0,
+            2151.0,
+            3033.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "as the objective functional, which is the expected time it takes for the quantum state",
+          "confidence": 95.66666666666667
+        },
+        {
+          "bbox": [
+            301.0,
+            3047.0,
+            2154.0,
+            3169.0
+          ],
+          "page_number": 9,
+          "element_type": "TextBlock",
+          "text": "to reach the target |1)(1| following policy 7. Minimizing J’. is a stochastic shortest path problem [18].",
+          "confidence": 91.52941176470588
+        },
+        {
+          "bbox": [
+            303.0,
+            273.0,
+            2151.0,
+            318.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "Feedback Policies for Measurement-based Quantum State Manipulation 10",
+          "confidence": 94.625
+        },
+        {
+          "bbox": [
+            670.0,
+            390.0,
+            1780.0,
+            515.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "x | |0) | |1) | lr) | [ea | 12) | Pb2) | los) | tees) | Iba) ] Iara) ia (x) E» Es Es Es Ey Es Es EF, Es E»",
+          "confidence": 57.333333333333336
+        },
+        {
+          "bbox": [
+            600.0,
+            575.0,
+            2152.0,
+            675.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "Table 3. The optimal policy 74 minimizing the expected time it takes for the quantum state to reach the target state |1)(1| for control set €, with T = 5.",
+          "confidence": 88.5
+        },
+        {
+          "bbox": [
+            399.0,
+            825.0,
+            2148.0,
+            994.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "We introduce &,(x) := inf, {px = |1)(1| | po = x} and V’(x) = minE, Ez0) (11)",
+          "confidence": 75.77777777777777
+        },
+        {
+          "bbox": [
+            820.0,
+            977.0,
+            839.0,
+            991.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "TT",
+          "confidence": 27.0
+        },
+        {
+          "bbox": [
+            301.0,
+            1024.0,
+            2152.0,
+            1212.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "The Markovian property of {pz }% leads to that the optimal policy 74 is stationary in the sense that 7, = 7'(x) for all k. The following conclusion holds applying directly the results of [18].",
+          "confidence": 84.34285714285714
+        },
+        {
+          "bbox": [
+            302.0,
+            1261.0,
+            1910.0,
+            1313.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "Proposition 3 The cost-to-go function V’ satisfies the following recursion",
+          "confidence": 90.4
+        },
+        {
+          "bbox": [
+            600.0,
+            1341.0,
+            2148.0,
+            1462.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "W(x) =1+4+ mip Pol r)V (Mi(2)), (12)",
+          "confidence": 46.714285714285715
+        },
+        {
+          "bbox": [
+            299.0,
+            1495.0,
+            2153.0,
+            1617.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "for all x« 4 |1)(1|, with boundary condition V?(\\1)(1|) = 0. The optimal policy 7° is given by",
+          "confidence": 77.5
+        },
+        {
+          "bbox": [
+            600.0,
+            1642.0,
+            2148.0,
+            1769.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "n(x) = arg min Ye P(y U, x)V (Mi(x)). (13) yey",
+          "confidence": 55.36363636363637
+        },
+        {
+          "bbox": [
+            309.0,
+            1802.0,
+            1180.0,
+            1862.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "The optimal J’, is given by J, = V\" (po):",
+          "confidence": 70.7
+        },
+        {
+          "bbox": [
+            301.0,
+            1914.0,
+            2152.0,
+            2160.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "Technically it cannot be guaranteed that for any given measurement set €, there always exists at least one policy 7 under which J’. admits a finite number. However, some straightforward calculations indicate that for the set € of projective measurements given in Eq. (1), finite J’. can always be achieved for a class of policies.",
+          "confidence": 94.03636363636363
+        },
+        {
+          "bbox": [
+            305.0,
+            2249.0,
+            1331.0,
+            2294.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "3.8. Numerical Example: Minimal Arrival Time",
+          "confidence": 95.33333333333333
+        },
+        {
+          "bbox": [
+            301.0,
+            2346.0,
+            1586.0,
+            2539.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "Again, consider T projective measurements from the set [17] E= {E, i= 12.2.7},",
+          "confidence": 77.0
+        },
+        {
+          "bbox": [
+            301.0,
+            2594.0,
+            2152.0,
+            2911.0
+          ],
+          "page_number": 10,
+          "element_type": "TextBlock",
+          "text": "In Figure 3, we plot J, (T) as a function of T, for T = 2,3,...,30. Numerical calculations show that the minimized average number of steps of driving |0)(0] to |1)(1| does not depend too much on the size of control set, it oscillates around 3.8 for control sets of reasonable size. Also for measurement set €, with T’ = 5, we show the optimal policy 7° in Table 3.",
+          "confidence": 90.8
+        },
+        {
+          "bbox": [
+            303.0,
+            273.0,
+            2149.0,
+            318.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "Feedback Policies for Measurement-based Quantum State Manipulation 11",
+          "confidence": 93.375
+        },
+        {
+          "bbox": [
+            1068.0,
+            382.0,
+            1521.0,
+            415.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "Minimal Arrival Time",
+          "confidence": 95.66666666666667
+        },
+        {
+          "bbox": [
+            740.0,
+            714.0,
+            785.0,
+            732.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "3.90",
+          "confidence": 90.0
+        },
+        {
+          "bbox": [
+            740.0,
+            864.0,
+            785.0,
+            881.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "3.85",
+          "confidence": 81.0
+        },
+        {
+          "bbox": [
+            740.0,
+            1013.0,
+            785.0,
+            1031.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "3.60",
+          "confidence": 86.0
+        },
+        {
+          "bbox": [
+            740.0,
+            1153.0,
+            1802.0,
+            1200.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "375 nl n 1 n nl 0 5 10 15 20 3 30",
+          "confidence": 56.84615384615385
+        },
+        {
+          "bbox": [
+            1229.0,
+            1218.0,
+            1356.0,
+            1250.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "Size T",
+          "confidence": 91.5
+        },
+        {
+          "bbox": [
+            600.0,
+            1340.0,
+            2151.0,
+            1433.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "Figure 3. The minimized average number of steps it takes to arrive at the target state |1)(1| from the initial state |0)(0| employing control set €, of size T.",
+          "confidence": 94.65517241379311
+        },
+        {
+          "bbox": [
+            301.0,
+            1585.0,
+            657.0,
+            1621.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "4. Conclusions",
+          "confidence": 96.0
+        },
+        {
+          "bbox": [
+            301.0,
+            1701.0,
+            2153.0,
+            2543.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "We have proposed feedback designs for manipulating a quantum state to a target state by performing sequential measurements. Making use of Belavkin’s quantum feedback control theory, we showed that finding the measurement selection policy that maximizes the probability of successful state manipulation is an optimal control problem which can be solved by dynamical programming for any given set of measurements and a given time horizon. Numerical examples indicate that making use of feedback information significantly improves the success probability compared to classical scheme without taking feedback. It was shown that the probability of reaching the target state via feedback policy reaches 0.9968 using merely 10 steps, while classical results [16, 17] suggested that naive strategy via consecutive measurements in turn reaches success probability one when the number of steps tends to infinity. Maximizing the expected fidelity to the target state and minimizing the expected arrival time were also considered, and some connections and differences among these objectives were also discussed.",
+          "confidence": 95.7
+        },
+        {
+          "bbox": [
+            302.0,
+            2589.0,
+            2155.0,
+            2835.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "Acknowledgments We gratefully acknowledge support by the Australian Research Council Centre of Excellence for Quantum Computation and Communication Technology (project number CE110001027), and AFOSR Grant FA2386-12-1-4075).",
+          "confidence": 94.84615384615384
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "level": 0,
+      "elements": [
+        {
+          "bbox": [
+            302.0,
+            2955.0,
+            560.0,
+            2991.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "References",
+          "confidence": 96.0
+        },
+        {
+          "bbox": [
+            326.0,
+            3062.0,
+            2153.0,
+            3155.0
+          ],
+          "page_number": 11,
+          "element_type": "TextBlock",
+          "text": "[1] V. P. Belavkin, Towards control theory of quantum observable systems, Automatica and Remote Control, vol. 44, $188, 1983.",
+          "confidence": 88.63157894736842
+        },
+        {
+          "bbox": [
+            303.0,
+            273.0,
+            2151.0,
+            318.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "Feedback Policies for Measurement-based Quantum State Manipulation 12",
+          "confidence": 94.625
+        },
+        {
+          "bbox": [
+            335.0,
+            388.0,
+            351.0,
+            416.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "2",
+          "confidence": 96.0
+        },
+        {
+          "bbox": [
+            334.0,
+            820.0,
+            353.0,
+            903.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "am",
+          "confidence": 54.0
+        },
+        {
+          "bbox": [
+            315.0,
+            1252.0,
+            352.0,
+            1281.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "10",
+          "confidence": 96.0
+        },
+        {
+          "bbox": [
+            315.0,
+            1361.0,
+            350.0,
+            1388.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "11",
+          "confidence": 94.0
+        },
+        {
+          "bbox": [
+            315.0,
+            1468.0,
+            351.0,
+            1496.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "12",
+          "confidence": 96.0
+        },
+        {
+          "bbox": [
+            315.0,
+            1575.0,
+            351.0,
+            1604.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "13",
+          "confidence": 95.0
+        },
+        {
+          "bbox": [
+            315.0,
+            1683.0,
+            352.0,
+            1711.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "14",
+          "confidence": 96.0
+        },
+        {
+          "bbox": [
+            315.0,
+            1791.0,
+            351.0,
+            1820.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "15",
+          "confidence": 96.0
+        },
+        {
+          "bbox": [
+            315.0,
+            1899.0,
+            352.0,
+            1928.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "16",
+          "confidence": 96.0
+        },
+        {
+          "bbox": [
+            315.0,
+            2007.0,
+            353.0,
+            2036.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "17",
+          "confidence": 96.0
+        },
+        {
+          "bbox": [
+            315.0,
+            2115.0,
+            351.0,
+            2144.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "18",
+          "confidence": 96.0
+        },
+        {
+          "bbox": [
+            387.0,
+            386.0,
+            2153.0,
+            2207.0
+          ],
+          "page_number": 12,
+          "element_type": "TextBlock",
+          "text": "M. R. James, Risk-sensitive optimal control of quantum systems, Physical Review A, vol. 69, 032108, 2004. L. Bouten, R. Van Handel, and M. R. James, A discrete invitation to quantum filtering and feedback control, STAM Review, 51(2), 239-316, 2009. S. J. Dolinar, An optimum receiver for the binary coherent state quantum channel, MIT Res. Lab. Electron. Quart. Progr. Rep., 111, pp. 115-120, 1973. R. L. Cook, P. J. Martin, and J. M. Geremia, An optimum receiver for the binary coherent state quantum channel, Nature, vol. 446, pp.774-777, 2007. C. W. Helstrom. Quantum Detection and Estimation Theory. Academic press, 1976. M. A. Nielsen and I. L. Chuang. Quantum Computation and Quantum Information. Cambridge university press. 2010. H. M. Wiseman, D. W. Berry, S. D. Bartlett, B. L. Higgins, and G. J. Pryde, Adaptive measurements in the optical quantum information laboratory, IEEE Journal of Selected Topics in Quantum Electronics, vol. 15, no. 6, pp. 1661-1672, 2009. H. M. Wiseman and G. J. Milburn, Quantum theory of optical feedback via homodyne detection, Physical Review Letters, vol. 70, no. 5, 548, 1993. M. L. Puterman. Markov Decision Processes: Discrete Stochastic Dynamic Programming. New York : Wiley, 1994. R. Durrett. Probability: Theory and Examples, Duxbury advanced series, Third Edition, Thomson Brooks/Cole, 2005. D. P. Bertsekas. Dynamic Programming and Optimal Control. Vol. Il, 4th Edition. Athena Scientific, 2012. S. Ashhab and F. Nori, Control-free control: manipulating a quantum system using only a limited set of measurements, Physical Review A, 82(6), 062103, 2010. K. Jacobs, Feedback control using only quantum back-action, New Journal of Physics, 12(4), 043005, 2010. H. M. Wiseman, Quantum control: Squinting at quantum systems, Nature, vol. 470, no. 7333, pp. 178-179, 2011. L. Roa, M. L. de Guevara, A. Delgado, G. Olivares-Renteria, and A. Klimov, Quantum evolution by discrete measurements, Journal of Physics: Conference Series, vol. 84, 012017, 2007. A. Pechen, N. IVin, F. Shuang, and H. Rabitz, Quantum control by von neumann measurements, Physical Review A, vol. 74, no. 5, p. 052102, 2006. D. P. Bertsekas and J. N. Tsitsiklis, An analysis of stochastic shortest path problems, Mathematics of Operations Research, 16(3), pp. 580-595, 1991.",
+          "confidence": 93.875
+        }
+      ]
+    }
+  ],
+  "llm_processing_log": []
+}
