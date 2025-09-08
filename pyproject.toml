@@ -59,6 +59,11 @@ scipdfparser = "pyscientificpdfparser.cli:main"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.pytest.ini_options]
+pythonpath = [
+    "src"
+]
+
 [tool.black]
 line-length = 88
 target-version = ['py310']
